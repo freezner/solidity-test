@@ -60,7 +60,9 @@ $ npx hardhat console --network localhost
 ```
 
 ## 테스트넷 배포
-- /hardhat.config.js
+- 테스트넷에서 스마트컨트랙트를 배포하고 실행하기 위해서는 테스트넷용 월렛과 토큰 필요.
+- 테스트넷 토큰 받는 곳: https://www.alchemy.com/faucets/ethereum-sepolia
+- /hardhat.config.js 파일 내 테스트넷 접속 주소와 사용할 월렛 주소 필요
 ```
 require("@nomiclabs/hardhat-ethers");
 

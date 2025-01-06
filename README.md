@@ -31,8 +31,8 @@ $ npx hardhat compile
 $ npx hardhat test
 ```
 
-## 로컬 로드 구동
-- 구동하면 테스트용 어카운트 20개 자동 생성
+## 로컬 노드 구동
+- 구동하면 노드 구동 및 테스트용 어카운트 20개 자동 생성
 ```
 $ npx hardhat node
 ```
